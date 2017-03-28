@@ -1,0 +1,15 @@
+/*
+*  This is to explain the use of "..." in java， 就是中文省略号的意思
+*/
+
+
+
+public void findEmpty(List<?> ... lists){
+    for (List<?> list : lists) {
+        if (list.size() == 0) {
+	    System.out.println("fouuuund it !");
+	    return;
+	}
+    }
+}
+

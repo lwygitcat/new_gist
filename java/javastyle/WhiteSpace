@@ -1,0 +1,40 @@
+//whiteSpace 水平 & 垂直 （line breaker）
+
+/* vertical */
+//===========1111==========
+private int a;
+// <-- [optional] if it is between fields;
+private int b;
+
+//===========22222=============
+private int a() {
+
+}
+// <-- space [needed] between methods
+private int b() {
+
+}
+
+//==========33333============
+int a = 3;
+int b = 4;
+// <-- for statement grouping, separate statement unless for grouping
+String c = new String();
+
+//=========4444444=========
+
+
+
+
+
+
+
+
+
+
+/* Horizontal */
+1. 保留字 if else for, catch.. 前后
+2. 二维，三维运算符前后  a + b
+
+3. // 水平注释前要加
+4. List<String> list;

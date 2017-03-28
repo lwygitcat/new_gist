@@ -1,0 +1,20 @@
+//{} brances 的使用
+
+ return new Mycalss() {  // <--  no line breaker before the opening brace, line breaker after opening brace
+   if (condition()) {
+     try {
+       something();
+     } catch (ProblemException e) { // <-- no breaker after closing brace, if else / throw & catch
+       recover();
+     }
+   } else {
+     somethingElse();
+   }
+ }
+
+
+ // Empty blocks
+ // follow previous style
+
+ void doNothing() {
+ } 

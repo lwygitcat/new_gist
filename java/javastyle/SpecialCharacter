@@ -1,0 +1,6 @@
+//non-ASCII characters, either unicode character / equivalent Unicode esacape(\u221e) is used, [easier to read and understand]
+//能特殊字母直接表示就直接表示
+// 次佳选择是用unicode, 然后标示出来，要让别人一看就懂；
+
+String unitAbbrev= "μs";
+String name = "\u03bcs"; // "μs"

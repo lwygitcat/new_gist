@@ -1,0 +1,18 @@
+//Enum
+
+private enum Answer {
+  YES {
+    @Override
+    public String toString() {
+      return "yes";
+    }
+  },
+                        // <-- line breaker here is optional
+  NO,
+  MAYBE
+}
+
+
+//if Enum 很简单
+
+public enum Suite { Clubs, HEARTS, SPADES, DIAMONDS }

@@ -1,0 +1,25 @@
+//line wrapping: 一行内容塞不下，必须要wrap 到多行
+// where to break ?
+
+/* before, 新行以以下标记开始 */
+ .
+ ::
+ <T extends Foo % Bar>
+ |
+
+ public Toy create() {
+   return new ToyBuilder()
+              .name()
+              .size()
+              .build();
+ }
+
+
+/* after = */
+ Predict<String> predicate =
+   (String a, Object obj) -> { // <-- never break adjacent to the arrow in the lambda; Unless 大括号内部只有一句话
+     ...
+   };
+
+Predict<String> pp = str -> // <-- break only one statement in the block
+  longExpressionInvolving(str);
